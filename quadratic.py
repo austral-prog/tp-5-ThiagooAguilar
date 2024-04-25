@@ -1,4 +1,3 @@
-# Replace the "ANSWER HERE" for your answer
 import math
 def roots(a, b, c):
     discriminante = (b**2)-(4*a*c)
