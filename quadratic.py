@@ -1,7 +1,7 @@
 import math
 def roots(a, b, c):
     discriminante = (b**2)-(4*a*c)
-    if discriminante > 0 :
+    if discriminante > 0:
         r1 = (-b + math.sqrt(discriminante))/(2*a)
         r2 = (-b - math.sqrt(discriminante))/(2*a)
         return f"({r1}, {r2})"
@@ -19,11 +19,11 @@ def to_string(a, b, c):
         return f"f(x) = {a} * X^2 + {b} * X + {c}"
     elif a==0 and b!=0 and c!=0:
         return f"f(x) = {b} * X + {c}"
-    elif a!=0 and b==0 and c!=0 :
+    elif a!=0 and b==0 and c!=0:
         return f"f(x) = {a} * X^2 + {c}"
-    elif a!=0 and b!=0 and c==0 :
+    elif a!=0 and b!=0 and c==0:
         return f"f(x) = {a} * X^2 + {b} * X"
-    elif a==0 and b == 0 and c!=0 :
+    elif a==0 and b == 0 and c!=0:
         return f"f(x) = {c}"
 
 
