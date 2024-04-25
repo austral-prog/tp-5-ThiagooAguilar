@@ -7,7 +7,7 @@ def roots(a, b, c):
         return f"({r1}, {r2})"
     elif discriminante == 0:
         return f"({-b/(2*a)})"
-    else :
+    else:
         return "( )"
 def value_y(a, b, c, x):
     y = a*(x**2)+(b*x)+c
