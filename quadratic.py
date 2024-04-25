@@ -37,3 +37,14 @@ def derivation(a, b):
         return f"f'(x) = {2*a} * X"
     elif a==0 and b==0:
         return f"f'(x) = 0"
+roots(1, -3, 2) 
+roots(1, -2, 1) 
+roots(1, 2, 3)  
+
+value_y(1, -3, 2, 0) 
+value_y(1, -3, 2, 1) 
+value_y(1, -3, 2, -1) 
+
+to_string(2, -3, 1) 
+
+derivation(2, -3, 1)
