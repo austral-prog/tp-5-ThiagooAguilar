@@ -30,9 +30,9 @@ def to_string(a, b, c):
 def derivation(a, b):
      if a!=0 and b!=0:
         return f"f'(x) = {2*a} * X + {b}"
-    elif a==0 and b!=0:
+     elif a==0 and b!=0:
         return f"f'(x) = {b}"
-    elif a!=0 and b==0:
+     elif a!=0 and b==0:
         return f"f'(x) = {2*a} * X"
-    elif a==0 and b==0:
+     elif a==0 and b==0:
         return f"f'(x) = 0"
